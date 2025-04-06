@@ -35,5 +35,5 @@ __decorate([
     __metadata("design:returntype", void 0)
 ], LoginController.prototype, "getLogin", null);
 LoginController = __decorate([
-    (0, constroller_1.controller)('/')
+    (0, constroller_1.controller)('/auth')
 ], LoginController);
