@@ -8,6 +8,7 @@ function logger(req: Request, res: Response, next: Function): void {
 
 @controller('/auth')
 class LoginController {
+
     @get('/login')
     @use(logger)
     getLogin(req: Request, res: Response): void {
